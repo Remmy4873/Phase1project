@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "password": "pass1"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "password": "pass2"
+    },
+    {
+      "id": "d8b4",
+      "email": "Brianatieno234@gmail.com",
+      "password": "5456fshstsiux6"
+    },
+    {
+      "id": "a827",
+      "email": "Remmykiplangat4873@gmail.com",
+      "password": "Remmy@4873"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "url": "videos/video_2024-07-16_12-29-12.mp4",
+      "title": "Man Utd vs Newcastle (3:2)",
+      "category": "Premier League"
+    },
+    {
+      "id": "2",
+      "url": "videos/video_2024-07-16_12-29-47.mp4",
+      "title": "Tottenham vs Man City (0:2)",
+      "category": "Premier League"
+    },
+    {
+      "id": "3",
+      "url": "videos/video_2024-07-16_12-30-26.mp4",
+      "title": "Aston Villa vs Liverpool (3:3)",
+      "category": "Premier League"
+    },
+    {
+      "id": "4",
+      "url": "videos/video_2024-07-16_12-31-20.mp4",
+      "title": "Nottingham vs Chelsea (2:3)",
+      "category": "Premier League"
+    },
+    {
+      "id": "5",
+      "url": "videos/video_2024-07-16_12-30-08.mp4",
+      "title": "Barcelona vs Real Sociedad (2:0)",
+      "category": "La Liga"
+    },
+    {
+      "id": "6",
+      "url": "videos/video_2024-07-16_22-07-37.mp4",
+      "title": "Arsenal vs Bayern Munich (2:2)",
+      "category": "Champions League"
+    },
+    {
+      "id": "7",
+      "url": "videos/video_2024-07-16_22-06-47.mp4",
+      "title": "Real Madrid vs Man City (3:3)",
+      "category": "Champions League"
+    },
+    {
+      "id": "8",
+      "url": "videos/video_2024-07-16_22-06-34.mp4",
+      "title": "Paris St Germany vs Barcelona (2:3)",
+      "category": "Champions League"
+    },
+    {
+      "id": "9",
+      "url": "videos/video_2024-07-16_22-06-25.mp4",
+      "title": "Atletico De Madrid vs Borussia Dortmund (2:3)",
+      "category": "Champions League"
+    },
+    {
+      "id": "10",
+      "url": "videos/video_2024-07-16_22-06-04.mp4",
+      "title": "Liverpool vs Atalanta (0:3)",
+      "category": "Europa League"
+    },
+    {
+      "id": "11",
+      "url": "videos/video_2024-07-16_22-05-53.mp4",
+      "title": "AC Milan vs Roma (0:1)",
+      "category": "Europa League"
+    },
+    {
+      "id": "12",
+      "url": "videos/video_2024-07-16_22-05-33.mp4",
+      "title": "Leverkusen vs WestHam United (2:0)",
+      "category": "Europa League"
+    },
+    {
+      "id": "13",
+      "url": "videos/video_rugby_1.mp4",
+      "title": "England vs Australia (15:10)",
+      "category": "Rugby"
+    },
+    {
+      "id": "14",
+      "url": "videos/video_rugby_2.mp4",
+      "title": "New Zealand vs South Africa (20:17)",
+      "category": "Rugby"
+    }
+
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Premier League"
+    },
+    {
+      "id": "2",
+      "name": "La Liga"
+    },
+    {
+      "id": "3",
+      "name": "Champions League"
+    },
+    {
+      "id": "4",
+      "name": "Europa League"
+    },
+    {
+      "id": "5",
+      "name": "Rugby"
+    },
+    {
+      "id": "6",
+      "name": "All"
+    }
+  ]
+}
