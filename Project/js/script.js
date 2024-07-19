@@ -114,4 +114,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.error('Error:', error);
             });
     });
+
+    // Video Upload functionality
+    const uploadVideoForm = document.getElementById('uploadVideoForm');
+    uploadVideoForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const title = document.getElementById('videoTitle').value;
+        const category = document.getElementById('videoCategory').value;
+        const url = document.getElementById('videoUrl').value;
+
+        fetch('http://localhost:3000/videos', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ title, category, url })
+        })
+        .then(response => response.json())
+        .then(video => {
+            alert('Video Uploaded Successfully!');
+            $('#uploadVideoModal').modal('hide');
+            videoData.push(video); // Add the new video to the existing data
+            displayHighlights('All'); // Refresh the highlights display
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
 });
